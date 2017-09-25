@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Sep 25 23:54:22 2017
-
-@author: grade12
-"""
 print("import success")
 
 
