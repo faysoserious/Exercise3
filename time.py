@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Sep 25 16:29:02 2017
 
-@author: grade12
-"""
 
 import timeit
 
