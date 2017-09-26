@@ -16,6 +16,7 @@ def fitted(x):
     abcd = np.polyfit(xdata, ydata, 3)
     return abcd[0]*(x**3) + abcd[1]*(x**2)+ abcd[2]*(x**1) + abcd[3]*(x**0)
 # Solve the real roots
+# There are three roots
 x0 = [-10, 0.0, 10]
 fittedroot = optimize.root(fitted,x0)
 #plotting
