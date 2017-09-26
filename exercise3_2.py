@@ -19,6 +19,7 @@ def fitted(x):
 # There are three roots
 x0 = [-10, 0.0, 10]
 fittedroot = optimize.root(fitted,x0)
+
 #plotting
 plt.plot(xdata, ydata,"r*")
 plt.plot(xdata,fitted(xdata))
